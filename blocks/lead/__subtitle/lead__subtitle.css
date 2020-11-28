@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url("Inter-Regular.woff2?v=3.15") format("woff2"),
+    url("Inter-Regular.woff?v=3.15") format("woff");
+  }
+
+.lead__subtitle {
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  color: #fff;
+  max-width: 640px;
+  margin: 0 auto 56px;
+  white-space: pre-line;
+}

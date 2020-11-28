@@ -1,0 +1,7 @@
+.footer__misc-list-item {
+  margin-right: 18px;
+}
+
+.footer__misc-list-item:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("Inter-Black.woff2?v=3.15") format("woff2"),
+         url("Inter-Black.woff?v=3.15") format("woff");
+  }
+
+.cover__title {
+  /*padding: 195px 0 0 0;*/
+  margin: 0 0 32px 0;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  text-align: center;
+  max-width: 560px;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.cover__title {
+  cursor: pointer;
+}

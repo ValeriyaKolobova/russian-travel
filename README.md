@@ -8,4 +8,4 @@
 
 Проект реализован в соответствии с методологией БЭМ.
 
-С проектом можно ознакомиться [здесь](https://rosphoto.com/best-of-the-best/puteshestviya_po_rossii-2668)
+С проектом можно ознакомиться [здесь](https://valeriyakolobova.github.io/russian-travel/index.html)

@@ -12,11 +12,26 @@
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 1.25;
   text-align: center;
   color: #fff;
-  max-width: 640px;
-  margin: 0 auto 56px;
+  max-width: 288px;
+  margin: 0 auto 40px;
   white-space: pre-line;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__subtitle {
+    font-size: 30px;
+    line-height: 1.2;
+    max-width: 640px;
+    margin: 0 auto 56px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__subtitle {
+    margin: 0 auto 64px;
+  }
 }

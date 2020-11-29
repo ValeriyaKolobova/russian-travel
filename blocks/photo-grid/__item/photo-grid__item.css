@@ -1,5 +1,24 @@
 .photo-grid__item {
   width: 100%;
-  height: 255px;
+  height: 216px;
   object-fit: fill;
+}
+
+
+@media screen and (min-width: 768px) {
+  .photo-grid__item {
+    height: 264px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photo-grid__item {
+    height: 255px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-grid__item {
+    height: 213px;
+  }
 }

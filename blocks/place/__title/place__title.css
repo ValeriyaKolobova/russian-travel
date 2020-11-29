@@ -11,9 +11,31 @@
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 1.06;
+  font-size: 32px;
+  line-height: 1.09;
   color: #fff;
-  padding: 0;
+  padding: 0 0 0 16px;
   margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 1.10;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__title {
+    font-size: 72px;
+    line-height: 1.06;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__title {
+    font-size: 72px;
+    line-height: 1.06;
+  }
 }

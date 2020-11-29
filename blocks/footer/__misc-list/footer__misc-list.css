@@ -3,4 +3,12 @@
   padding: 0;
   margin: 0;
   display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 670px) {
+  .footer__misc-list {
+    flex-direction: row;
+    height: 18px;
+  }
 }

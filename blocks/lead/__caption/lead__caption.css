@@ -9,7 +9,7 @@
   }
 
 .lead__caption {
-  margin: 0;
+  margin: 0 0 0 16px;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -18,4 +18,16 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__caption {
+    margin: 0 0 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__caption {
+    margin: 0;
+  }
 }

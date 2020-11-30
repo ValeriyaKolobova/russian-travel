@@ -1,5 +1,4 @@
 .page {
-  min-width: 320px;
   margin: 0 auto;
   background-color: #2a2c2f;
   -moz-osx-font-smoothing: grayscale;
@@ -9,22 +8,4 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
-}
-
-@media screen and (min-width: 768px) {
-  .page {
-    min-width: 768px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .page {
-    min-width: 1024px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .page {
-    min-width: 1280px;
-  }
 }

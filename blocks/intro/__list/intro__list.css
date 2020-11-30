@@ -1,20 +1,8 @@
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src:
-    url("Inter-Regular.woff2?v=3.15") format("woff2"),
-    url("Inter-Regular.woff?v=3.15") format("woff");
-  }
-
 .intro__list {
   padding: 0;
   margin: 0;
   list-style: none;
-  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-family: 'Inter-Bold', 'Arial', 'Helvetica', sans-serif;
   font-size: 12px;
   line-height: 1.5;
   color: #fff;

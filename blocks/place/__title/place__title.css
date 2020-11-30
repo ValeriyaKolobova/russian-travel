@@ -1,16 +1,5 @@
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("Inter-Black.woff2?v=3.15") format("woff2"),
-         url("Inter-Black.woff?v=3.15") format("woff");
-}
-
 .place__title {
-  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
-  font-style: normal;
-  font-weight: 900;
+  font-family: 'Inter-Black', 'Arial', 'Helvetica', sans-serif;
   font-size: 32px;
   line-height: 1.09;
   color: #fff;

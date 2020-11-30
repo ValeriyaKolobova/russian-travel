@@ -1,4 +1,5 @@
 @import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
@@ -37,3 +38,7 @@
 @import url('../blocks/footer/__misc-list-item/footer__misc-list-item.css');
 @import url('../blocks/footer/__misc-list-link/footer__misc-list-link.css');
 @import url('../blocks/footer/__author/footer__author.css');
+
+/** {
+  border: 1px solid red;
+}*/

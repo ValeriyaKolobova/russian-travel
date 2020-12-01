@@ -1,9 +1,10 @@
 @media screen and (min-width: 670px) {
   .place__url-heading {
-    font-family: 'Inter-Regular', 'Arial', 'Helvetica', sans-serif;
+    font-weight: 400;
     font-size: 12px;
     line-height: 1;
     letter-spacing: 0.2em;
+    text-transform: uppercase;
     color: #aaa;
     padding: 0;
     margin: 0 0 12px;

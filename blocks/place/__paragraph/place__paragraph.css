@@ -1,5 +1,5 @@
 .place__paragraph {
-  font-family: 'Inter-Regular', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.63;
   color: #fff;
@@ -13,23 +13,19 @@
 
 @media screen and (min-width: 768px) {
   .place__paragraph {
-    font-size: 16px;
-    line-height: 1.63;
     padding: 0;
-    margin: 0 0 25px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place__paragraph {
     font-size: 18px;
-    line-height: 1.63;
-    margin: 0 0 27px;
+    margin-bottom: 27px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place__paragraph {
-    margin: 0 0 26px;
+    margin-bottom: 26px;
   }
 }

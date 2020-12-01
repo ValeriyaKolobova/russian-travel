@@ -9,6 +9,5 @@
 @media screen and (min-width: 670px) {
   .footer__misc-list {
     flex-direction: row;
-    height: 18px;
   }
 }

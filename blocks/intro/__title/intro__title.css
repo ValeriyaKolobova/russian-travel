@@ -1,7 +1,7 @@
 .intro__title {
   padding: 0;
   margin: 0 0 40px;
-  font-family: 'Inter-Black', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 900;
   font-size: 32px;
   line-height: 1.09;
   color: #fff;
@@ -11,7 +11,5 @@
   .intro__title {
     font-size: 54px;
     line-height: 1.07;
-    color: #fff;
-    white-space: nowrap;
   }
 }
